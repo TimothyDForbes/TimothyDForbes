@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    font-family: 'Leto', sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+header{
+    color: rgb(255, 255, 255);
+    margin: auto;
+    font-family: 'Caveat', cursive;
+}
+header .container-fluid{
+    max-width: 66%;
+    background-color: rgb(65, 65, 65);
+    border:  5px solid rgb(138, 138, 138);
+    font-size: 19px;
+    box-shadow: 10px 10px 25px 17px rgba(26, 32, 37, 0.276);
+    max-height: 200px;
+}
+nav{
+    background-color: rgb(65, 65, 65);
+    padding: 5px;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 25px 17px rgba(26, 32, 37, 0.276);
+}
+nav ul{
+    list-style-type: none; /*removes the "bullets" from the ul list*/
+    text-align: center;
+}
+nav a{
+    text-decoration: none; /*removes the underlining of the links in our navigation*/
+    padding-right: 20px; /*for horizontal orientation niceness :0)*/
+}
+nav a:link{
+    color:rgb(138, 138, 138);
+}
+nav a:visited{
+    color:rgb(69, 134, 255);
+}
+nav a:hover{
+    color: rgb(255, 255, 255);
+}
+nav a:active{
+    color:black;
+}
+nav li{
+    display:inline; /*this will force the ul list to display horizontally*/
+}
+main{
+    margin: auto;
+    background-color: rgb(65, 65, 65);
+    border:  5px solid rgb(138, 138, 138);
+    max-width: 66%;
+    color: rgb(188, 187, 182);
+    box-shadow: 10px 10px 25px 17px rgba(26, 32, 37, 0.276);
+    padding: 3px;
+}
+h1{
+    text-align: center;
+    font-size: 4em;
+}
+h2{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+main p{
+    max-width: 500px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+main img{
+    display: inline;
+}
+table{
+    max-width: 1000px;
+    border: 4px solid rgb(255, 216, 108);
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+    border-radius: 5px;
+    padding: 30px;
+    width: 40em;
+    box-shadow: 12px 20px 33px -12px #00000091;
+    background-color: white;
+    color: black;
+}
+th{
+    width: 10em;
+    border: none;
+    font-size: 1.3em;
+    background-color: beige;
+    border-bottom: 2px solid black;
+}
+td{
+    border: 1px solid rgb(70, 70, 70);
+    height: 2em;
+    text-align: center;
+}
+form{
+    max-width: 48%;
+    text-align: center;
+    line-height: 3em;
+    margin:auto;
+    border: 2px solid rgb(0, 176, 230);
+    color:  rgb(0, 176, 230);
+    box-shadow: inset 22px 25px 16px -12px rgba(0, 0, 0, 0.048);
+    padding: 2em;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    margin-top: 30px;
+    text-align: center;
+    border-top: 5px solid grey;
+    padding: 10px;
+    background-color: rgb(65, 65, 65);
+}
+footer a{
+    font-size: 20px;
+}
+canvas{
+    margin-left: 40%;
+}
+button{
+    margin-left: 40%;
+
+}
+form{
+    background-color: whitesmoke;
+}
+#self{
+    background-color: rgb(255, 255, 255);
+}
+#leftfloated{
+    float: left;
+}
+#Resume{
+    text-align: center;
+    color: rgb(188, 187, 182);
+}
+#Resume main{
+    color: black;
+    text-align: left;
+    max-width: 800px;
+}
+#Resume ul{
+    list-style-type: none;
+}
+#Resume b{
+    margin-left: 5%;
+}
+#Resume small{
+    margin-left: 10%;
+}
+#Resume h2{
+    border-bottom: 2px double black;
+}
+#Resume h3{
+    font-size: 1.8em;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+#Resume h4{
+    font-size: 1.2em;
+    margin-left: 0;
+    margin-right: 60%;
+    border-bottom:  1px solid rgba(48, 48, 48, 0.185);
+}
+#Resume p{
+    margin-left: auto;
+    margin-right: 40%;
+    padding-bottom: 2em;
+}
+#Resume-Section{
+    margin: 1.6em;
+    padding: 3%;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    background-color: white;
+    box-shadow: 6px 5px 44px 17px rgba(26, 32, 37, 0.465);
+}
+#TableNumber{
+    background-color: beige;
+    width: 2em;
+}
+#TableNumberHeading{
+    width: 10px;
+}
+
+
+#ColorLightBlue nav{
+    border-top: 5px solid rgb(69, 134, 255);
+    border-bottom: 5px solid rgb(69, 134, 255);
+}
+#ColorLightBlue main{
+    border:  5px solid rgb(69, 134, 255);
+}
+#ColorLightBlue a:visited{
+    color: rgb(69, 134, 255);
+}
+
+
+#ColorYellow nav{
+    border-top: 5px solid rgb(255, 246, 79);
+    border-bottom: 5px solid rgb(255, 246, 79);
+}
+#ColorYellow main{
+    border:  5px solid rgb(255, 246, 79);
+}
+#ColorYellow a:visited{
+    color: rgb(255, 246, 79);
+}
+
+
+#ColorGreen nav{
+    border-top: 5px solid rgb(24, 157, 24);
+    border-bottom: 5px solid rgb(24, 157, 24);
+}
+#ColorGreen main{
+    border:  5px solid rgb(24, 157, 24)
+}
+#ColorGreen a:visited{
+    color: rgb(24, 157, 24)
+}
+
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+h1{
+    font-size: 23px;
+}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+h1{
+    font-size: 0.8em;
+}
+}
